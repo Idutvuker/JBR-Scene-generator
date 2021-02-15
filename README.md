@@ -14,6 +14,11 @@
 docker build -t scene-gen-image .
 
 ./run-container.sh
+cd SceneGen
+./buildAndRun.sh
+
+
+exit # Выход из контейнера
 ```
 
 Приложение соберётся, но не сможет запуститься.
