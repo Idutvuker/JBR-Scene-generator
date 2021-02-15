@@ -10,6 +10,7 @@
 ### Docker
 У меня не получилось настроить докер-образ так, чтобы в нём запускался OpenGL контекст :(.
 Пытался использовать `mesa` как реализацию OpenGL API.
+Похоже, такая проблема возникала [возникала](https://github.com/tashrifbillah/glxgears-containers#build-container) не только у меня.
 
 ```shell
 docker build -t scene-gen-image .
