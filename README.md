@@ -16,7 +16,7 @@ docker build -t scene-gen-image .
 
 ./run-container.sh
 cd SceneGen
-./buildAndRun.sh
+./buildAndRun.sh docker
 
 
 exit # Выход из контейнера
@@ -26,7 +26,7 @@ exit # Выход из контейнера
 
 ### Linux
 ```shell
-./buildAndRun.sh
+./buildAndRun.sh linux
 ```
 
 

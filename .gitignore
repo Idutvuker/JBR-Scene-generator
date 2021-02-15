@@ -1,3 +1,4 @@
-/build/
+/build_linux/
+/build_docker/
 /cmake-build-debug/
 /.idea/
